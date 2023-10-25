@@ -1,0 +1,42 @@
+body {
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header {
+    background-color: #264653;
+}
+
+.bannar {
+    height: 500px;
+}
+
+p {
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.btn {
+    margin-top: 5px;
+    background-color: #be6008;
+    padding: 5px 20px;
+}
+
+.best {
+    color: #E76F51;
+}
+
+.greyscal img {
+    width: 288px;
+    filter: grayscale(100%);
+}

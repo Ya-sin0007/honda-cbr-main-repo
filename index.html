@@ -1,14 +1,180 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>honda-cbr-main</title>
+    <title>honda cbr</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,800;1,300;1,500&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <!-- css link  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font aewsome  -->
+    <script src="https://kit.fontawesome.com/bb6e1991b4.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <h1>hello</h1>
+    <!-- header section  -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5">
+                        <li class="nav-item">
+                            <a class="nav-link active me-3 text-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active me-3 text-white" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active me-3 text-white" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" href="#">News</a>
+                        </li>
+
+                    </ul>
+                    <a class="text-decoration-none"
+                        style="margin-right: 190px; background-color: #E76F51; color: #fff; padding: 10px 24px; border-radius: 5px;"
+                        href="#">Login</a>
+                </div>
+            </div>
+        </nav>
+        <section class=" container bannar">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-6">
+                    <p class="text-light">Computer-controlled digital transistorized with electronic advance</p>
+                    <h1 class="text-light">Honda CBR 300R</h1>
+                    <p class="text-light">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                        Velit officia consequat
+                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Purchase
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Honda CBR150R is powered by 149.16 cc engine. This CBR150R engine generates a
+                                        power of 17.1 PS @ 9000 rpm and a torque of 14.4 Nm @ 7000 rpm. Honda CBR150R
+                                        gets Disc brakes in the front and rear. The kerb weight of CBR150R is 139 Kg.
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/header-bike.png" alt="">
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="container">
+            <h1 class="text-center mt-3 ">Fetured Bikes 2021</h1>
+            <p class="text-center best"><u>Best bike collection</u></p>
+            <div class="container px-4 text-center">
+                <div class="row gx-5">
+                    <div class="col">
+                        <div class="p-3 greyscal"><img src="images/feature-bike.jpg" alt=""></div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3"><img width=" 288px" src="images/feature-bike.jpg" alt=""></div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3 greyscal"><img src="images/feature-bike.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <h1 class="text-center mt-5">latest News</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="images/bike-3.png" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">2021 Honda CBR500R</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                                fermentum amet faucibus sed id nisi lectus at.</p>
+                        </div>
+                        <div class="mb-4">
+                            <a class="text-decoration-none ms-3 rounded"
+                                style="background-color: #E76F51; padding: 10px 20px;" href="#">Read
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/bike-2.png" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">2021 Honda CBR500R</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                                fermentum amet faucibus sed id nisi lectus at.</p>
+                        </div>
+                        <div class="mb-4 ">
+                            <a class="text-decoration-none ms-3 rounded border border-primary-subtle"
+                                style="padding: 10px 20px;" href="#">Read
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/bike-2.png" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">2021 Honda CBR500R</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                                fermentum amet faucibus sed id nisi lectus at.</p>
+                        </div>
+                        <div class="mb-4">
+                            <a class="text-decoration-none ms-3 rounded border border-primary-subtle"
+                                style="background-color: #fffbfbfa; padding: 10px 20px;" href="#">Read
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <aside class="container mt-5 ">
+            <h1 class="text-center">Happy <span style="color: #E76F51;">Clients says</span></h1>
+            <div class="row mt-5">
+            </div>
+
+        </aside>
+    </main>
+
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
+<!DOCTYPE html>
+<html lang="en">
